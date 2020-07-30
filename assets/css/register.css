@@ -18,7 +18,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-#register {
+.register {
   width: 50%;
 }
 
@@ -73,13 +73,13 @@ button {
 }
 
 @media (max-width: 1024px) {
-  #login {
+  .register {
     width: 65%;
   }
 }
 
 @media (max-width: 450px) {
-  #login {
+  .register {
     width: 80%;
   }
 }
@@ -89,12 +89,4 @@ button {
     padding-left: 0;
   }
 
-  .check-wrap {
-    padding-left: 0.9rem;
-  }
-
-  .login-options {
-    flex-direction: column;
-    text-align: center;
-  }
 }
